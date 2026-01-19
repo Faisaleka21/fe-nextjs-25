@@ -1,0 +1,24 @@
+install npm
+npm install
+
+buat file 
+ 1 .env
+NEXT_PUBLIC_API =http://127.0.0.1:8000
+NEXT_PUBLIC_IMG =http://127.0.0.1:8000/assets #ini dipakai jika mengupload gambar 
+NEXT_PUBLIC_API_KEY_LVL =key di .env laravel
+
+ 2 .env.local
+NEXT_PUBLIC_API =http://127.0.0.1:8000
+NEXT_PUBLIC_IMG =http://127.0.0.1:8000/assets #ini dipakai jika mengupload gambar 
+NEXT_PUBLIC_API_KEY_LVL =key di .env laravel
+
+3 .env.production.local
+NEXT_PUBLIC_API =http://127.0.0.1:8000
+NEXT_PUBLIC_IMG =http://127.0.0.1:8000/assets #ini dipakai jika mengupload gambar 
+NEXT_PUBLIC_API_KEY_LVL =key di .env laravel
+
+install grid
+npm install @mui/x-data-grid
+
+install jwt
+npm install jwt-decode

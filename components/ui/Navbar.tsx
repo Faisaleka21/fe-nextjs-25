@@ -17,7 +17,7 @@ import Cookies from 'js-cookie';
 const settings = [
   { name: 'Profile', href: '/profile' },
   { name: 'Account', href: '/account' },
-  { name: 'Dashboard', href: '/dashboard' },
+  { name: 'Dashboard', href: '/' },
   { name: 'Logout', href: '/logout' },
 ];
 export default function Navbar() {
